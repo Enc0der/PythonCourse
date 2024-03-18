@@ -1,0 +1,21 @@
+
+FROM python:3.8
+
+# Установка LaTeX и других зависимостей
+RUN apt-get update && apt-get install -y \
+    texlive \
+    texlive-latex-extra \
+    texlive-fonts-recommended \
+    && rm -rf /var/lib/apt/lists/*
+
+# Копирование исходного кода в контейнер
+COPY . /app
+WORKDIR /app
+
+# Установка зависимостей Python
+RUN pip install -r requirements.txt
+
+# Команда для генерации .tex файла
+CMD ["python", "main.py"]
+
+
