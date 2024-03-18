@@ -1,0 +1,8 @@
+setup.py
+src/latexgenerator/__init__.py
+src/latexgenerator/image_generator.py
+src/latexgenerator/table_generator.py
+src/latexgenerator.egg-info/PKG-INFO
+src/latexgenerator.egg-info/SOURCES.txt
+src/latexgenerator.egg-info/dependency_links.txt
+src/latexgenerator.egg-info/top_level.txt

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='latexgenerator',
+    name='latexgenerator_Topalidi',
     version='0.1',
     author='Aleksandra',
     author_email='topalidia@gmail.com',
