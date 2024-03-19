@@ -2,13 +2,6 @@
 
 This repository contains files for generating LaTeX documents from tabular data.
 
-#### Files:
-- **generate_latex.py**: This Python script provides a function to generate a LaTeX document from tabular data.
-- **example_data.py**: Contains an example dataset (`data`) to demonstrate the usage of the `generate_full_latex_document` function.
-- **example_output.tex**: Example LaTeX output generated from the provided data.
-- **Dockerfile**: Dockerfile for creating a Docker image to run the LaTeX generation process.
-- **docker-compose.yml**: Docker Compose file for orchestrating the Docker container.
-
 #### Usage:
 1. Ensure you have Python installed on your system.
 2. Include the `generate_latex.py` file in your project directory.
