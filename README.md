@@ -4,15 +4,15 @@ This repository contains files for generating LaTeX documents from tabular data.
 
 #### Usage:
 1. Ensure you have Python installed on your system.
-2. Include the `generate_latex.py` file in your project directory.
-3. Import the `generate_full_latex_document` function from `generate_latex.py` into your Python script.
+2. Include the `main.py` file in your project directory.
+3. Import the `generate_full_latex_document` function from `table_generator.py` into your Python script.
 4. Prepare your tabular data in a list-of-lists format.
 5. Call the `generate_full_latex_document` function with your data to obtain the LaTeX document as a string.
 6. Optionally, you can save the generated LaTeX document to a `.tex` file.
 
 Example usage:
 ```python
-from generate_latex import generate_full_latex_document
+from catopalidi import generate_full_latex_document
 
 # Example data
 data = [
