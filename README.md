@@ -58,46 +58,44 @@ This package provides functionalities to generate LaTeX code for tables and docu
 - Clone the repository: `git clone https://github.com/Enc0der/PythonCourse.git`
 - Make changes and submit a pull request.
 
-## Работа с Docker
+Here is the translated text:
 
-Этот проект может быть запущен в контейнере Docker. В репозитории присутствует `Dockerfile`, который создает образ, содержащий все необходимые зависимости для выполнения проекта, включая Python 3.8 и LaTeX.
+```markdown
+## Working with Docker
+This project can be run inside a Docker container. The repository contains a Dockerfile that creates an image containing all the necessary dependencies for running the project, including Python 3.8 and LaTeX.
 
-### Сборка образа Docker
-
-Для сборки Docker образа, выполните следующую команду в корневой директории проекта:
+### Building the Docker Image
+To build the Docker image, execute the following command in the root directory of the project:
 
 ```bash
 docker build -t latex-generator-image .
 ```
 
-### Запуск контейнера
-
-После сборки вы можете запустить контейнер, используя:
+### Running the Container
+After building, you can start the container using:
 
 ```bash
 docker run --name my-latex-container -v ${PWD}:/app latex-generator-image
 ```
 
-Это запустит скрипт `main.py` внутри контейнера, который сгенерирует `.tex` файл. Все файлы будут доступны в директории `/app` внутри контейнера.
+This will run the `main.py` script inside the container, which will generate a .tex file. All files will be accessible in the `/app` directory inside the container.
 
-## Использование Docker Compose
+### Using Docker Compose
+You can also run the project using docker-compose. This is a convenient way to launch applications consisting of multiple containers. In this case, docker-compose simplifies the launch and management of the container with your application.
 
-Также вы можете запустить проект с помощью `docker-compose`. Это удобный способ запуска приложений, состоящих из нескольких контейнеров. В данном случае `docker-compose` упростит запуск и управление контейнером с вашим приложением.
-
-Чтобы запустить приложение с использованием `docker-compose`, выполните:
+To start the application using docker-compose, execute:
 
 ```bash
 docker-compose up
 ```
 
-Это создаст и запустит все необходимые сервисы, определенные в файле `docker-compose.yml`. Ваше приложение будет запущено, и файлы будут синхронизированы с вашим локальным каталогом.
+This will create and start all the necessary services defined in the `docker-compose.yml` file. Your application will be launched, and files will be synchronized with your local directory.
 
-### Остановка и удаление контейнеров
-
-Для остановки и удаления всех контейнеров, созданных с помощью `docker-compose`, используйте команду:
+### Stopping and Removing Containers
+To stop and remove all containers created with docker-compose, use the command:
 
 ```bash
 docker-compose down
 ```
 
-Это остановит и удалит все контейнеры, а также сети и тома, созданные `docker-compose`.
+This will stop and remove all containers, as well as networks and volumes created by docker-compose.
