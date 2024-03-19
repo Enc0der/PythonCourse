@@ -13,26 +13,35 @@ def generate_full_latex_document(data):
     for row in rows:  # Add the data rows
         table_latex += " & ".join(row) + " \\\\\\hline\n"
     table_latex += "\\end{tabular}\n"
-    table_latex += "\\caption{Введите здесь вашу подпись}\n"
+    table_latex += "\\caption{Тестовая таблица для Python Backend Course}\n"
     table_latex += "\\end{table}\n"
     
     # Combine with the rest of the document
-    full_document = r'''\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+    full_document = f'''\documentclass{{article}}
+\\usepackage[T2A]{{fontenc}} % Добавлено для поддержки кодировки шрифта
+\\usepackage[utf8]{{inputenc}} % Уже не обязательно для новых версий LaTeX
+\\usepackage[russian]{{babel}} % Поддержка русского языка
+\\usepackage{{graphicx}} % Required for inserting images
 
-\title{Python}
-\author{Aleksandra Topalidi}
-\date{March 2024}
+\\title{{Python}}
+\\author{{Aleksandra Topalidi}}
+\\date{{March 2024}}
 
-\begin{document}
+\\begin{{document}}
 
-\maketitle
+\\maketitle
 
-\section{Introduction}
+\\section{{Introduction}}
 
-''' + table_latex + r'''
+{table_latex}
 
-\end{document}
+\\begin{{figure}}[h!]
+\\centering
+\\includegraphics[width=0.5\\textwidth]{{generated_avatar_4.png}}
+\\caption{{Пример изображения}}
+\\end{{figure}}
+
+\\end{{document}}
 '''
     
     return full_document

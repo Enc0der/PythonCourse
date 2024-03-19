@@ -1,0 +1,5 @@
+setup.py
+catopalidi/catopalidi.egg-info/PKG-INFO
+catopalidi/catopalidi.egg-info/SOURCES.txt
+catopalidi/catopalidi.egg-info/dependency_links.txt
+catopalidi/catopalidi.egg-info/top_level.txt

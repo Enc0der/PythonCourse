@@ -1,8 +1,9 @@
 import sys
-sys.path.append("/Users/monglels/Desktop/PythonCourse/hw_2.1/latexlibrary/src")
+sys.path.append("/Users/monglels/Desktop/PythonCourse/hw_2/latexlibrary")
 
 
-from catopalidi.table_generator import generate_latex_table
+
+from catopalidi.table_generator import generate_full_latex_document
 from catopalidi.image_generator import generate_latex_image
 
 # Данные для таблицы
@@ -13,7 +14,7 @@ data = [
 ]
 
 # Генерация LaTeX кода для таблицы и изображения
-latex_table = generate_latex_table(data)
+latex_table = generate_full_latex_document(data)
 latex_image = generate_latex_image("generated_avatar_4.png", "Пример изображения")
 
 # Вывод сгенерированного кода

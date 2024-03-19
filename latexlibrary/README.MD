@@ -1,15 +1,14 @@
-
 ```markdown
-# LaTeXGenerator
+# Catopalidi
 
-LaTeXGenerator - это Python библиотека, предназначенная для генерации LaTeX документов, включая таблицы и изображения.
+Catopalidi - это Python библиотека, предназначенная для генерации LaTeX документов, включая таблицы и изображения.
 
 ## Установка
 
-Чтобы установить последнюю версию LaTeXGenerator, выполните следующую команду:
+Чтобы установить последнюю версию Catopalidi, выполните следующую команду:
 
 ```bash
-pip install LaTeXGenerator
+pip install catopalidi
 ```
 
 ## Использование
@@ -19,7 +18,7 @@ pip install LaTeXGenerator
 Чтобы сгенерировать таблицу в LaTeX:
 
 ```python
-from latexgenerator import generate_latex_table
+from catopalidi import generate_latex_table
 
 data = [
     ["Header 1", "Header 2", "Header 3"],
@@ -35,7 +34,7 @@ print(latex_code)
 Чтобы вставить изображение в LaTeX документ:
 
 ```python
-from latexgenerator import generate_latex_image
+from catopalidi import generate_latex_image
 
 latex_code = generate_latex_image('path/to/your/image.png', 'Описание изображения')
 print(latex_code)
@@ -48,4 +47,3 @@ print(latex_code)
 ```bash
 pdflatex ваш_файл.tex
 ```
-
