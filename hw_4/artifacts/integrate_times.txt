@@ -1,0 +1,16 @@
+thread, 1 jobs: 0.0019741058349609375 seconds
+thread, 2 jobs: 0.0013620853424072266 seconds
+thread, 3 jobs: 0.0014150142669677734 seconds
+thread, 4 jobs: 0.0016598701477050781 seconds
+thread, 5 jobs: 0.0016531944274902344 seconds
+thread, 6 jobs: 0.0016710758209228516 seconds
+thread, 7 jobs: 0.0017478466033935547 seconds
+thread, 8 jobs: 0.0019562244415283203 seconds
+process, 1 jobs: 0.0798802375793457 seconds
+process, 2 jobs: 0.07745003700256348 seconds
+process, 3 jobs: 0.07784318923950195 seconds
+process, 4 jobs: 0.07682299613952637 seconds
+process, 5 jobs: 0.1059260368347168 seconds
+process, 6 jobs: 0.09870004653930664 seconds
+process, 7 jobs: 0.11644315719604492 seconds
+process, 8 jobs: 0.1246190071105957 seconds

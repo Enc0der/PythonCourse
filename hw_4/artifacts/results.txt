@@ -1,0 +1,35 @@
+Synchronous:
+Synchronous execution time: 1.52137 seconds
+Synchronous execution time: 1.51825 seconds
+Synchronous execution time: 1.53005 seconds
+Synchronous execution time: 1.52538 seconds
+Synchronous execution time: 1.86839 seconds
+Synchronous execution time: 1.67145 seconds
+Synchronous execution time: 1.58790 seconds
+Synchronous execution time: 1.53204 seconds
+Synchronous execution time: 1.55344 seconds
+Synchronous execution time: 1.65963 seconds
+
+Threading:
+Threading execution time: 13.94942 seconds
+Threading execution time: 14.89036 seconds
+Threading execution time: 15.03822 seconds
+Threading execution time: 14.91113 seconds
+Threading execution time: 15.39622 seconds
+Threading execution time: 15.11068 seconds
+Threading execution time: 15.46363 seconds
+Threading execution time: 15.57559 seconds
+Threading execution time: 15.20263 seconds
+Threading execution time: 15.47845 seconds
+
+Multiprocessing:
+Multiprocessing execution time: 3.00405 seconds
+Multiprocessing execution time: 3.03158 seconds
+Multiprocessing execution time: 3.06805 seconds
+Multiprocessing execution time: 3.09446 seconds
+Multiprocessing execution time: 3.10473 seconds
+Multiprocessing execution time: 3.13153 seconds
+Multiprocessing execution time: 3.12094 seconds
+Multiprocessing execution time: 3.13727 seconds
+Multiprocessing execution time: 3.16484 seconds
+Multiprocessing execution time: 3.16293 seconds
