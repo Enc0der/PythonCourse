@@ -20,7 +20,7 @@ https://www.python.org/downloads/
 
 ```
    git clone https://github.com/Enc0der/PythonCourse.git
-cd PythonCourse
+   cd PythonCourse
 ```
 
 ### Запуск скриптов
